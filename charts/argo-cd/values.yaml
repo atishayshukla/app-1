@@ -9,3 +9,7 @@ argo-cd:
         - type: helm
           name: argo-cd
           url: https://argoproj.github.io/argo-helm
+
+  configs:
+    cm:
+      application.instanceLabelKey: mycompany.com/appname
